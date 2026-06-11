@@ -1,13 +1,15 @@
 {
-  "name": "converter-tool",
+  "name": "document-converter",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "Professional Document Converter (PDF ↔ DOCX)",
+  "main": "server/app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server/app.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "multer": "^1.4.5-lts.1",
-    "libreoffice-convert": "^1.4.1"
+    "libreoffice-convert": "^1.4.1",
+    "cors": "^2.8.5"
   }
 }
